@@ -1,0 +1,673 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100;200;300;400;500&family=Arimo:ital@1&family=DynaPuff:wght@400;500;600&family=Fasthand&family=Libre+Baskerville&family=Lobster&family=Mochiy+Pop+One&family=Montserrat:wght@100;300;400;500;600;700&family=Nunito:wght@200;300;400;500;600;700;800;900&family=Playfair+Display&family=Poppins:wght@100;200;300;400;500;700&family=Raleway:wght@300&family=Ubuntu:wght@300;400&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 40px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    padding: 0px 60px;;
+}
+
+#main-logo{
+    width: 150px;
+}
+
+
+.container{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("https://assets.nflxext.com/ffe/siteui/vlv3/0678255b-ecfd-4775-999a-0680d539f07c/5d715e0d-a0c2-4bd3-8c99-a1e7e0ec6e2d/IN-en-20221128-popsignuptwoweeks-perspective_alpha_website_medium.jpg"), no-repeat;
+    width: 100%;;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+#sign{
+    background-color: #de0611;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1.2vw;
+    font-family: "ubuntu"
+}
+
+#eng{
+    color: white;
+    font-size: 1.2vw;
+    padding: 10px;
+}
+
+
+/* ======================== header part ============================ */
+
+
+
+.content-hd{
+    color: white;
+}
+
+.content{
+    text-align: center;
+    padding-top: 9%;
+}
+
+#content-hd{
+    font-size: 4vw;
+    font-family: "ubuntu";
+    font-weight: 900;;
+}
+
+#content-hd4{
+    font-size: 2.5vw;
+    font-family: "ubuntu";
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+#content-p{
+    font-size: 1.5vw;
+    font-family: "ubuntu";
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+#input{
+    width: 40vw;
+    padding: 20px 10px;
+    font-size: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+
+#btn{
+    background: #de0611;
+    padding: 21px 30px;
+    width: 15vw;
+    color: white;
+    border: none;
+    font-size: 20px;
+    margin-top: 30px;
+    cursor: pointer;;
+}
+
+#btn:hover{
+    background: red;
+}
+
+hr{
+    height: 7px;
+    background-color: rgb(65, 60, 60);
+    border: none;
+}
+
+
+
+
+
+
+.content-2{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content2-img img{
+    width: 550px;
+    margin-right: 40px;
+    margin-bottom: 40px
+}
+
+.content-2 #vid2{
+    width: 400px;
+    position: absolute;
+    left: 59.28%;
+    top: 113.3%;
+}
+
+.content2-text{
+    margin-left: 80px; 
+    font-size: 20px;
+    font-family: "ubuntu"
+}
+
+#content2-hd{
+    font-size: 50px;;
+}
+
+#content2-hding{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+.content-3{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.download-ani{
+    display: inline-flex;
+    border: 2px solid grey;;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background: black;
+    position: absolute;
+    left: 10%;
+    top: 203%;;
+}
+
+.download-ani div{
+    padding: 0px 20px; 
+}
+
+.fa-download{
+    padding-left: 35px;
+    padding-right: 8px; 
+    font-size: 20px;
+}
+
+#ani-para{
+    font-size: 15px;
+    font-family: "poppins";
+}
+
+#ani-para2{
+    font-size: 20px;
+    color: blue;
+    font-family: "poppins";
+}
+  
+.img{
+    height: 70px;
+    margin-left: 12px;
+}
+
+.content3-img img{
+    width: 500px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.content3-text{
+    margin-right: 130px; 
+    font-size: 20px;
+    font-family: "ubuntu"
+}
+
+#content3-hd{
+    font-size: 50px;;
+}
+
+#content3-hding{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+
+
+
+.content-4{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content4-img img{
+    width: 550px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    z-index: -1;
+}
+
+.content4-text{
+    margin-left: 90px; 
+    font-size: 20px;
+    font-family: "ubuntu"
+}
+
+#content4-hd{
+    font-size: 50px;;
+}
+
+#content4-hding{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+.vid{
+    width: 315px;
+    position: absolute;
+    right: 13%;
+    top: 244%;
+    z-index: 1;
+}
+
+
+
+
+.content-5{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content5-img img{
+    width: 550px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.content5-text{
+    margin-right: 100px; 
+    font-size: 20px;
+    font-family: "ubuntu"
+}
+
+#content5-hd{
+    font-size: 50px;;
+}
+
+#content5-hding{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+
+.content-6{
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+.normal-hd{
+    font-family: "ubuntu";
+    font-size: 50px;
+    padding: 70px 0px;
+}
+
+.list-hd{
+    font-size: 28px;
+    font-family: "poppins";
+    font-weight: 400;;
+    width: 100%;
+    padding-left: 20px; 
+}
+
+.content-list{
+    /* border: 1px solid white; */
+    width: 65%;
+    text-align: left;
+    margin-left: 230px !important;
+    padding: 15px 10px;
+    background: #303030;
+    margin-top: 15px
+}
+
+.flex{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+span{
+   position: absolute;
+   left: 80%;
+   font-size: 20px;;
+}
+
+
+
+
+
+
+.content-7{
+    background: black;
+    text-align: center;
+    color: white;
+    padding-bottom: 100px;
+}
+
+#para{
+    padding-top: 80px;
+    margin-bottom: -10px;
+    font-size: 20px;
+    font-family: "poppins";
+}
+
+
+
+
+
+footer{
+    background: black; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "poppins";
+    padding: 30px 0px;
+}
+
+footer a{
+    text-decoration: none;
+    color: grey;;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+.f-content{
+    margin: 0px 40px;
+}
+
+.con{
+    padding-top: 62px;
+}
+
+footer p{
+    margin: 15px 0px;
+    color: grey;
+}
+
+#line:hover{
+    text-decoration: underline;
+}
+
+#eng2{
+    color: grey;
+    border: 1px solid grey;
+    padding: 10px 9px;;
+    width: 120px;
+}
+
+.con2{
+    margin-top: -33px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 900px){
+    .content-2{
+        flex-direction: column;
+    }
+
+    #content-hd {
+    font-size: 23px;
+    }
+
+    #content-hd4 {
+        font-size: 16px;
+    }
+
+    #content-p {
+        font-size: 10px;
+    }
+
+    .in-btn{
+        display: block
+    }
+
+    #btn {
+        padding: 11px 20px;
+        width: 121px;
+        font-size: 12px;
+        margin-top: 26px;
+    }
+
+    #input {
+        width: 35%;
+        padding: 9px 10px;
+        font-size: 14px;
+        margin-top: 26px;
+    }
+
+    #content2-hd {
+        margin-top: 35px;
+        text-align: center;
+        font-size: 26px;
+    }
+
+    .container{
+        height: 25vh;
+    }
+
+    .content {
+        text-align: center;
+        padding-top: 0%;
+    }
+
+    #main-hd {
+        font-size: 17px;
+        color: #de0611;
+    }
+
+    #eng {
+        color: white;
+        font-size: 9px;
+        padding: 10px;
+    }
+
+    nav ul li {
+        margin-left: 20px;
+    }
+
+    nav{
+        padding: 0px 15%;
+    }
+
+    .content2-text{
+        margin-left: 0px;
+    }
+
+    #content2-hding {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .content2-img img {
+        width: 298px;
+        margin-right: 0px;
+        margin-bottom: 40px;
+    }
+    
+    .content-2 #vid2 {
+        width: 206px;
+        position: absolute;
+        left: 36.30%;
+        top: 39.3%;
+    }
+
+    .content-3{
+        flex-direction: column-reverse; 
+    }
+    
+    #content3-hd {
+        text-align: center;
+        font-size: 24px;
+        margin-top: 50px;
+    }
+
+    .content3-text{
+        margin-right: 0px; 
+    }
+    
+    #content3-hding{
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .content3-img img {
+        width: 354px;
+        margin-left: 0px;
+    }
+
+    .download-ani {
+        padding: 6px 5px;
+        position: absolute;
+        left: 33.3%;
+        top: 79.5%;
+    }
+
+    .img{
+        height: 55px;
+        margin-left: 12px;
+    }
+
+    #ani-para {
+        font-size: 11px;
+    }
+
+    #ani-para2 {
+        font-size: 13px;
+    }
+    
+    .fa-download:before {
+        font-size: 18px;
+    }
+
+    .content-4{
+        flex-direction: column;
+    }
+
+    #content4-hd {
+        font-size: 27px;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .content4-text{
+        margin-left: 0px; 
+    }
+
+    #content4-hding {
+        font-size: 10px;
+        font-weight: 550;
+        margin-top: -14px;
+    }
+
+    .content4-img img {
+        width: 310px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+        margin-top: 23px;
+        z-index: 1;
+    }
+
+    .vid {
+        width: 186px;
+        position: absolute;
+        right: 38%;
+        top: 101%;
+    }
+
+    .content-5{
+        flex-direction: column-reverse;
+    }
+
+    #content5-hd {
+        text-align: center;
+        font-size: 23px;
+        margin-top: 40px;
+    }
+
+    #content5-hding {
+        font-size: 12px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .content5-text{
+        margin-right: 0px; 
+    }
+
+    .content5-img img {
+        width: 315px;
+        margin-left: 0px;
+    }
+
+    .normal-hd {
+        font-size: 22px;
+        padding-bottom: 5px;
+    }
+
+    .content-list {
+        width: 41%;
+        padding: 11px 10px;
+    }
+
+    .list-hd {
+        font-size: 11px;
+    }
+
+    span{
+        position: absolute;
+        left: 66%;
+        font-size: 20px;
+    }
+    
+    #para {
+        padding-top: 30px;
+        margin-bottom: -10px;
+        font-size: 14px;
+    }
+
+    footer{
+        padding: 0px 0px;
+    }
+
+    .f-content {
+        font-size: 11px;
+        margin: 0px 5px;
+    }
+
+    .con {
+        padding-top: 42px;
+    }
+}
